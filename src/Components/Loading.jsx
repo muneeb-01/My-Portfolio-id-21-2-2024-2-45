@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import { HiArrowSmallDown } from "react-icons/hi2";
 
 function LandingPage() {
   const width = window.innerWidth;

@@ -14,3 +14,14 @@
 * {
   font-family: "NEUE-MONTREAL";
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #18181b;
+  border-radius: 20px;
+}

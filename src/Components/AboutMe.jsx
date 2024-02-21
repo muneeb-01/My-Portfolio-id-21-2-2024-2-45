@@ -50,7 +50,13 @@ function AboutMe() {
             About me:
           </p>
           <div className="mt-[4vw]">
-            <div className="w-32 h-32 rounded-2xl bg-slate-200 max-xl:size-[9.5vw] max-lg:size-[16vw] max-md:size-[20vw] max-md:rounded-xl"></div>
+            <div className="w-32 h-32 rounded-full bg-gradient-to-tr from-[#CDEA68] via-[#88c96e] to-[#014D43] max-xl:size-[9.5vw] max-lg:size-[16vw] max-md:size-[20vw] max-md:rounded-xl overflow-hidden">
+              <img
+                src="/image/Profile.png"
+                className="w-full bg-center drop-shadow-2xl"
+                alt=""
+              />
+            </div>
             <div className="w-[85%] max-xl:w-[95%]  mt-[1.2vw] max-lg:mt-[3.5vw]">
               <p className="text-[1.1vw] max-xl:text-[1.6vw] font-medium max-lg:text-[2.5vw] max-md:text-[3.6vw]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
